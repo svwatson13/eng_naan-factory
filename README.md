@@ -9,11 +9,15 @@ Learning outcomes:
 - GitHub
 - Markdown
 - TDD
-- Functional Programming
+- Functional Programming & Best packages
+- DRY Principles
+- Separation of concerns
+
 
 ## Specification of Factory
 
 Factory will have 2 Steps:
+
 
 ### 1. making_dough
 Our factory should take in flour and water to make dough
@@ -29,3 +33,9 @@ Should be able to put in oven and get naan
 Lastly, we should just be able to give the factory the water and the flour and get naan
 - inputs = 'water' and 'flour'
 - outputs = 'naan'
+
+### How to run the programme
+Run the naan_factory_run.py file
+
+### How to run test
+Run the naan_factory_tests.py
