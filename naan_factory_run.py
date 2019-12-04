@@ -6,7 +6,10 @@ print('Welcome to the naan factory')
 produce1 = input('What is the first produce?')
 produce2 = input('What is the second produce?')
 
-output1 = make_dough1(produce1, produce2)
+#Long winded run
+output1 = make_dough(produce1, produce2)
 final_output = bake_dough(output1)
-
 print('Well done! You made some:', final_output)
+
+#Shortened function run
+print('Well done! You made some:', run_factory(produce1, produce2))
