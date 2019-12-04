@@ -1,6 +1,5 @@
 ## Functions
-
-def make_dough1(ing1, ing2):
+def make_dough(ing1, ing2):
     if 'water' != ing1 and 'water' != ing2:
         return 'not dough'
     if 'flour' != ing1 and 'flour' != ing2:
@@ -15,3 +14,7 @@ def bake_dough(ing1):
     else:
         return 'not naan'
 
+def run_factory(ing1, ing2):
+    output1 = make_dough(ing1, ing2)
+    final_output = bake_dough(output1)
+    return final_output
