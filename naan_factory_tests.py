@@ -10,9 +10,11 @@ print("testing bake_dough with 'dough'. Expected --> 'naan'")
 print(bake_dough('dough') == 'naan')
 print('when testing bake_dough we got:', bake_dough('dough'))
 
-print(make_dough1('water', 'flour') == 'dough')
+print(make_dough('water', 'flour') == 'dough')
 print(make_dough('water', 'water') == 'dough')
 print(make_dough('flour', 'flour') == 'dough')
-print(make_dough1('water', 'cement') == 'not dough')
+print(make_dough('water', 'cement') == 'not dough')
 print(bake_dough('chicken') == 'not naan')
 print(bake_dough('DOUGH') == 'not naan')
+
+print(run_factory('flour', 'water'))
